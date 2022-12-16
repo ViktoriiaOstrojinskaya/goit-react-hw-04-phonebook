@@ -77,7 +77,7 @@ class App extends Component {
     const filterContacts = this.filterName();
     return (
       <Box>
-        <Title title="Phonebook" />
+        <Title title="Phonebook hw-4" />
         <ContactForm onSubmit={this.addNewContact} />
 
         <Title title="Contacts" />
